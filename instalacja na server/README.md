@@ -1,7 +1,7 @@
 # Przenoszenie strony na server
 
 
-1. Usuwanie developerskich paczek z projektu
+1. Usuwanie developerskich paczek z projektu w progrsmie VisualStudioCode
 
 `composer install --no-dev`
 
