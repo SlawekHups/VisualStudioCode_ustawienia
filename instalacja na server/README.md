@@ -13,7 +13,7 @@
 
 2. Kopiowanie i ustawienie pliku nazwa domeny, baza .env
 
-`cd .env.example .env`
+`cp .env.example .env`
 
 `vim .env`
 
