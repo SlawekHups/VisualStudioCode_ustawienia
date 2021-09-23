@@ -18,6 +18,15 @@
 `vim .env`
 
 
+`
+APP_NAME=Ozonek
+APP_ENV=production
+APP_KEY=
+APP_DEBUG=false
+APP_URL=http://ozonek.eu
+`
+
+
 3. Generowanie klucza w pliku .env
 
 `php artisan key:generate`

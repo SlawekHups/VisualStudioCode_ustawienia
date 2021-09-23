@@ -1,0 +1,19 @@
+RewriteRule ^(.*)$ https://ozonek.eu/$1 [R=301,L]
+RewriteRule ^index.html$ http://ozonek.eu/$1 [R=301,L]
+RewriteRule ^index.php$ http://ozonek.eu/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.ozonek.eu [NC]
+RewriteRule ^(.*)$ http://ozonek.eu/$1 [L,R=301]
+
+
+
+
+
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^index.html$ http://%1/$1 [R=301,L]
+RewriteRule ^index.php$ http://%1/$1 [R=301,L]
+
