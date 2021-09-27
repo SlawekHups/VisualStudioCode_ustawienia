@@ -54,6 +54,8 @@
 `redhat.vscode-yaml`
 27. Polacode
 `pnp.polacode`
+28. Auto Rename TAG
+`Auto rename paired HTML/XML tag`
 
 
 
