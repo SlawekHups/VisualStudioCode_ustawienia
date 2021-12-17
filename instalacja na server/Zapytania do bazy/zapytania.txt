@@ -1,0 +1,18 @@
+##  Wyświetlenie zarejstrowanego usera 
+
+1.
+`                   {{ Auth::user()->name }},
+                    {{ Auth::user()->surname }},
+                    {{ Auth::user()->email }},
+                    {{ Auth::user()->phone_number }}
+                    {{ Auth::user()->role }}
+                    {{ Auth::user()->name }}
+`
+ 2. Zliczenie ilosci rekordow user
+ 
+ 
+ `{{ \App\Models\User::count() }}` 
+
+3. Zliczenie konkretnej tabeli role ile jest uzytkownikow w grupie1
+
+`{{ \App\Models\User::where('role', 'grupa1')->count(); }}`
